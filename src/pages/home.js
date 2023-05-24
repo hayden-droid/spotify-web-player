@@ -18,7 +18,7 @@ function Home(){
             <div className={styles.Content}>
                 <section>
                     <div className={styles.SectionTitle}>
-                        <TitleL>İyi günler</TitleL>
+                        <TitleL>Good evening</TitleL>
                     </div>
 
                     <div className={styles.SectionCards}>
@@ -35,7 +35,7 @@ function Home(){
 
                 <section>
                     <div className={styles.SectionTitle}>
-                        <TitleM>Yakında çalınanlar</TitleM>
+                        <TitleM>Recently played</TitleM>
                     </div>
                     
                     <div className={styles.SectionCardsMedium}>
