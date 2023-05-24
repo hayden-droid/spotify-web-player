@@ -56,7 +56,7 @@ function PlaylistPage(props) {
 
 							<div className={styles.ListHead}>
 								<TextRegularM>#</TextRegularM>
-								<TextRegularM>BAŞLIK</TextRegularM>
+								<TextRegularM>TITLE</TextRegularM>
 								<Icons.Time/>
 							</div>
 
