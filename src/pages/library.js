@@ -23,7 +23,7 @@ function Library(){
 function PlaylistTab(){
     return (
         <div>
-            <TitleM>Çalma Listeleri</TitleM>
+            <TitleM>Playlists</TitleM>
             <div className={styles.Grid}>
                 {PLAYLIST.filter(item => item.type == 'playlist').map((item) => {
                     return (
@@ -41,7 +41,7 @@ function PlaylistTab(){
 function PodcastTab(){
     return (
         <div>
-            <TitleM>Podcast'ler</TitleM>
+            <TitleM>Podcasts</TitleM>
             <div className={styles.Grid}>
                 {PLAYLIST.filter(item => item.type == 'podcast').map((item) => {
                     return (
@@ -59,7 +59,7 @@ function PodcastTab(){
 function ArtistTab(){
     return (
         <div>
-            <TitleM>Sanatçılar</TitleM>
+            <TitleM>Artists</TitleM>
         </div>
     );
 }
@@ -67,7 +67,7 @@ function ArtistTab(){
 function AlbumTab(){
     return (
         <div>
-            <TitleM>Albümler</TitleM>
+            <TitleM>Album</TitleM>
             <div className={styles.Grid}>
                 {PLAYLIST.filter(item => item.type == 'albüm').map((item) => {
                     return (
